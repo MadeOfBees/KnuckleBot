@@ -1,0 +1,16 @@
+{
+  "name": "knucklebot",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun index.js",
+    "dev": "bun index.js --watch"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "nodemon": "^3.1.6"
+  }
+}
